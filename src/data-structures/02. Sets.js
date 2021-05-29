@@ -28,7 +28,7 @@ function mySet() {
     }
     return false;
   };
-  // this method will return the size of the collectiion
+  // this method will return the size of the collection
   this.size = function () {
     return collection.length;
   };

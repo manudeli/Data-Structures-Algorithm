@@ -1,3 +1,4 @@
+/* Stacks */
 // Stacks are of last in first out type of service
 
 // Examples
