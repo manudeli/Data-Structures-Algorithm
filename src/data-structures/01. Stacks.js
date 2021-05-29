@@ -1,25 +1,20 @@
 // Stacks are of last in first out type of service
 
 // Examples
-
 /* 1. Books :: The topmost book in the stack was the one that you put there last
  if you remove that book from your stack */
-
 /* 2. Browsers back button */
 
 // functions: push, pop, peek, length
 
 let letters = []; // this is our Stack
-
 let word = "racecar";
-
 let reverseWord = "";
 
 // Put letters of word into stack
 for (let i = 0; i < word.length; i++) {
   letters.push(word[i]);
 }
-
 // Pop off the stack in reverse order
 for (let i = 0; i < word.length; i++) {
   reverseWord += letters.pop();
