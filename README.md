@@ -1,1 +1,1 @@
-JavaScript-Algorithm
+### Data Structures Algorithm
